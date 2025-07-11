@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9fb;
+  }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+@media only screen  and (max-width: 768px) {
+  body {
+    font-size: 19px;
+  }
+
+  .text-2xl {
+      font-size: 1.8rem;
+  }
+  .text-lg {
+    font-size: 21px;
+  }
+  .text-md {
+    font-size: 19px;
+  }
+  .text-sm {
+    font-size: 17px;
+  }
+  .text-base {
+    font-size: 19px;
+  }
+  .text-xs {
+    font-size: 15px;
+  }
+
+
+
+}
