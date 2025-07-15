@@ -1,79 +1,87 @@
+// App.jsx
 import React from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
-
+import { Routes, Route } from 'react-router-dom';
 
 import Layout from './components/Layout.jsx';
-
 import Home from './components/Pages/Home/Home.jsx';
 
+// Getting Started
 import GettingStarted from './components/Pages/GettingStarted/GettingStarted.jsx';
-import Intro from './components/Pages/GettingStarted/Intro/Intro.jsx';
-import Onboarding from './components/Pages/GettingStarted/Onboarding/Onboarding.jsx';
-import DashboardOverview from './components/Pages/GettingStarted/DashboardOverview/DashboardOverview.jsx';
+import CreatorsDashboard from './components/Pages/GettingStarted/CreatorsDashboard/CreatorsDashboard.jsx';
+import ProfileInfo from './components/Pages/GettingStarted/CreatorsDashboard/ProfileInfo.jsx';
+import Email from './components/Pages/GettingStarted/CreatorsDashboard/Email.jsx';
+import Password from './components/Pages/GettingStarted/CreatorsDashboard/Password.jsx';
+import Billing from './components/Pages/GettingStarted/CreatorsDashboard/Billing.jsx';
+import MarketingResources from './components/Pages/GettingStarted/MarketingResources.jsx';
+import AIAndyCoach from './components/Pages/GettingStarted/AIAndyCoach.jsx';
 
-import CourseCreation from './components/Pages/CourseCreation/CourseCreation.jsx';
-import CourseCreator from './components/Pages/CourseCreation/CourseCreator.jsx';
-import CourseEditor from './components/Pages/CourseCreation/CourseEditor.jsx';
-import AddingMultimediaCourse from './components/Pages/CourseCreation/AddingMultimedia.jsx';
-import OneClickCourseCreator from './components/Pages/CourseCreation/OneClickCourseCreator.jsx';
-import ExportingDownloadingCourse from './components/Pages/CourseCreation/ExportingDownloading.jsx';
+// Create a Course or Ebook
+import CourseEbook from './components/Pages/CourseEbook/CourseEbook.jsx';
+import StepByStep from './components/Pages/CourseEbook/StepByStep.jsx';
+import CreateCourse from './components/Pages/CourseEbook/CreateCourse.jsx';
+import CreateFiction from './components/Pages/CourseEbook/CreateFiction.jsx';
+import CreateNonFiction from './components/Pages/CourseEbook/CreateNonFiction.jsx';
+import DocumentUpload from './components/Pages/CourseEbook/DocumentUpload.jsx';
+import FastCourseCreation from './components/Pages/CourseEbook/FastCourseCreation.jsx';
 
-import BookCreation from './components/Pages/BookCreation/BookCreation.jsx';
-import BookCreator from './components/Pages/BookCreation/BookCreator.jsx';
-import BookEditor from './components/Pages/BookCreation/BookEditor.jsx';
-import AddingMultimediaBook from './components/Pages/BookCreation/AddingMultimediaBook.jsx';
-import OneClickBookCreator from './components/Pages/BookCreation/OneClickBookCreator.jsx';
-import ExportingDownloadingBook from './components/Pages/BookCreation/ExportingDownloading.jsx';
+// Additional Features
+import AdditionalFeatures from './components/Pages/AdditionalFeatures/AdditionalFeatures.jsx';
+import EditorWindow from './components/Pages/AdditionalFeatures/EditorWindow.jsx';
+import SharePreview from './components/Pages/AdditionalFeatures/SharePreview.jsx';
+import AdminPanel from './components/Pages/AdditionalFeatures/AdminPanel.jsx';
+import AddVideos from './components/Pages/AdditionalFeatures/AddVideos.jsx';
+import AddAudiobooks from './components/Pages/AdditionalFeatures/AddAudiobooks.jsx';
+import AddCoverImages from './components/Pages/AdditionalFeatures/AddCoverImages.jsx';
+import CreateQuizzes from './components/Pages/AdditionalFeatures/CreateQuizzes.jsx';
+import MediaManagement from './components/Pages/AdditionalFeatures/MediaManagement.jsx';
+import EmailCampaigns from './components/Pages/AdditionalFeatures/EmailCampaigns.jsx';
 
-import AudioBookCreation from './components/Pages/AudioBookCreation/AudioBookCreation.jsx';
-
-import AndyAI from './components/Pages/AndyAI/AndyAI.jsx';
-import QuizMedia from './components/Pages/QuizMedia/QuizMedia.jsx';
-import EmailMarketing from './components/Pages/EmailMarketing/EmailMarketing.jsx';
-import CourseHosting from './components/Pages/CourseHosting/CourseHosting.jsx';
-import Spotlight from './components/Pages/Spotlight/Spotlight.jsx';
-import SupportResource from './components/Pages/SupportResource/SupportResource.jsx';
-
-
-
-
+// Customer Support
+import CustomerSupport from './components/Pages/CustomerSupport/CustomerSupport.jsx';
+import LogComplaint from './components/Pages/CustomerSupport/LogComplaint.jsx';
+import OneOnOneCall from './components/Pages/CustomerSupport/OneOnOneCall.jsx';
 
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        {/* <Route index element={<Navigate to="/introduction" replace />} /> */}
+        <Route index element={<Home />} />
 
-        <Route index element={<Home />} />       
-
+        {/* Getting Started */}
         <Route path="getting-started" element={<GettingStarted />} />
-          <Route path="getting-started/introduction-to-mini-lessons-academy" element={<Intro />} />
-          <Route path="getting-started/onboarding" element={<Onboarding />} />
-          <Route path="getting-started/dashboard-overview" element={<DashboardOverview />} />
-        
-        <Route path="course-creation" element={<CourseCreation />} />
-          <Route path="course-creation/course-creator" element={<CourseCreator />} />
-          <Route path="course-creation/course-editor" element={<CourseEditor />} />
-          <Route path="course-creation/adding-multimedia" element={<AddingMultimediaCourse />} />
-          <Route path="course-creation/one-click-course-creator" element={<OneClickCourseCreator />} />
-          <Route path="course-creation/exporting-downloading" element={<ExportingDownloadingCourse />} />
+        <Route path="getting-started/creators-dashboard" element={<CreatorsDashboard />} />
+        <Route path="getting-started/creators-dashboard/profile-information" element={<ProfileInfo />} />
+        <Route path="getting-started/creators-dashboard/email" element={<Email />} />
+        <Route path="getting-started/creators-dashboard/password" element={<Password />} />
+        <Route path="getting-started/creators-dashboard/billing" element={<Billing />} />
+        <Route path="getting-started/marketing-resources" element={<MarketingResources />} />
+        <Route path="getting-started/ai-andy-coach" element={<AIAndyCoach />} />
 
-        <Route path="book-creation" element={<BookCreation />} />
-          <Route path="book-creation/book-creator" element={<BookCreator />} />
-          <Route path="book-creation/book-editor" element={<BookEditor />} />
-          <Route path="book-creation/adding-multimedia" element={<AddingMultimediaBook />} />
-          <Route path="book-creation/one-click-book-creator" element={<OneClickBookCreator />} />
-          <Route path="book-creation/exporting-downloading" element={<ExportingDownloadingBook />} />
+        {/* Create a Course or Ebook */}
+        <Route path="course-ebook" element={<CourseEbook />} />
+        <Route path="course-ebook/step-by-step" element={<StepByStep />} />
+        <Route path="course-ebook/step-by-step/create-course" element={<CreateCourse />} />
+        <Route path="course-ebook/step-by-step/create-fiction" element={<CreateFiction />} />
+        <Route path="course-ebook/step-by-step/create-nonfiction" element={<CreateNonFiction />} />
+        <Route path="course-ebook/document-upload" element={<DocumentUpload />} />
+        <Route path="course-ebook/fast-course-creation" element={<FastCourseCreation />} />
 
-        <Route path="audiobook-creation" element={<AudioBookCreation />} />
+        {/* Additional Features */}
+        <Route path="additional-features" element={<AdditionalFeatures />} />
+        <Route path="additional-features/editor-window" element={<EditorWindow />} />
+        <Route path="additional-features/share-preview" element={<SharePreview />} />
+        <Route path="additional-features/admin-panel" element={<AdminPanel />} />
+        <Route path="additional-features/add-videos" element={<AddVideos />} />
+        <Route path="additional-features/add-audiobooks" element={<AddAudiobooks />} />
+        <Route path="additional-features/add-cover-images" element={<AddCoverImages />} />
+        <Route path="additional-features/create-quizzes" element={<CreateQuizzes />} />
+        <Route path="additional-features/media-management" element={<MediaManagement />} />
+        <Route path="additional-features/email-campaigns" element={<EmailCampaigns />} />
 
-        <Route path="andy-ai" element={<AndyAI />} />
-        <Route path="quiz-and-media-management" element={<QuizMedia />} />
-        <Route path="email-marketing" element={<EmailMarketing />} />
-        <Route path="course-hosting" element={<CourseHosting />} />
-        <Route path="spotlight" element={<Spotlight />} />
-        <Route path="support-resource" element={<SupportResource />} />
-        
+        {/* Customer Support */}
+        <Route path="customer-support" element={<CustomerSupport />} />
+        <Route path="customer-support/log-complaint" element={<LogComplaint />} />
+        <Route path="customer-support/1-on-1-call" element={<OneOnOneCall />} />
       </Route>
     </Routes>
   );

@@ -77,13 +77,18 @@ export default function Sidebar({ collapsed, setCollapsed, isMobile }) {
   }, [pathname]);
 
   // Scroll to active item in mobile
-  useEffect(() => {
-    if (!isMobile || !sidebarRef.current) return;
+useEffect(() => {
+  if (!isMobile || collapsed || !sidebarRef.current) return;
+
+  const timeout = setTimeout(() => {
     const activeLink = sidebarRef.current.querySelector(".bg-\\[\\#7b1fa2\\]");
     if (activeLink) {
       activeLink.scrollIntoView({ behavior: "smooth", block: "center" });
     }
-  }, [pathname, isMobile]);
+  }, 100); // delay to allow sidebar transition
+
+  return () => clearTimeout(timeout);
+}, [collapsed, isMobile]);
 
   const handleClick = (label, hasSub) => {
     if (hasSub) {
