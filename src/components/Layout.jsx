@@ -75,7 +75,7 @@ export default function Layout() {
 
       <main
         className={`transition-all duration-300 pt-[60px] px-4 min-h-screen z-10 relative text-[16px] sm:text-[18px] leading-relaxed
-          ${isMobile ? '' : collapsed ? 'ml-[60px]' : 'ml-[250px]'}
+          ${isMobile ? '' : collapsed ? 'ml-[60px]' : 'ml-[300px]'}
           ${shouldOverlay ? 'pointer-events-none select-none' : ''}`}
       >
         <div className={`${collapsed && !isMobile ? 'max-w-7xl' : 'max-w-6xl'} mx-auto`}>

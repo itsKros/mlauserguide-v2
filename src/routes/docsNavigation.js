@@ -1,36 +1,39 @@
 export const docsNavigation = [
-    // Home page
-    { path: '/', label: 'Home' },
+  // Getting Started
+  { path: "/getting-started", label: "Getting Started" },
+  { path: "/getting-started/creators-dashboard", label: "Creator’s Dashboard" },
+  { path: "/getting-started/creators-dashboard/profile-information", label: "Profile Information" },
+  { path: "/getting-started/creators-dashboard/email", label: "Email" },
+  { path: "/getting-started/creators-dashboard/password", label: "Password" },
+  { path: "/getting-started/creators-dashboard/billing", label: "Billing" },
+  { path: "/getting-started/marketing-resources", label: "Marketing Resources" },
+  { path: "/getting-started/ai-andy-coach", label: "AI Andy Coach" },
 
-    // Getting Started
-    { path: '/getting-started', label: 'Getting Started' },
-    { path: '/getting-started/introduction-to-mini-lessons-academy', label: 'Introduction to Mini Lessons Academy' },
-    { path: '/getting-started/onboarding', label: 'Onboarding' },
-    { path: '/getting-started/dashboard-overview', label: 'Dashboard Overview' },
+  // Create a Course or Ebook
+  { path: "/course-ebook", label: "Create a Course or Ebook" },
+  { path: "/course-ebook/step-by-step", label: "Step-by-Step Guided Creation" },
+  { path: "/course-ebook/step-by-step/create-course", label: "Create a Course / Training" },
+  { path: "/course-ebook/step-by-step/create-fiction", label: "Create Fiction" },
+  { path: "/course-ebook/step-by-step/create-nonfiction", label: "Create Non-Fiction Book" },
+  { path: "/course-ebook/document-upload", label: "Document Upload" },
+  { path: "/course-ebook/fast-course-creation", label: "Fast Course Creation" },
 
-    // Course Creation
-    { path: '/course-creation', label: 'Course Creation' },
-    { path: '/course-creation/course-creator', label: 'Course Creator' },
-    { path: '/course-creation/course-editor', label: 'Course Editor' },
-    { path: '/course-creation/adding-multimedia', label: 'Adding Multimedia (Course)' },
-    { path: '/course-creation/one-click-course-creator', label: 'One-Click Course Creator' },
-    { path: '/course-creation/exporting-downloading', label: 'Exporting & Downloading (Course)' },
+  // Additional Features
+  { path: "/additional-features", label: "Additional Features" },
+  { path: "/additional-features/editor-window", label: "Editor Window" },
+  { path: "/additional-features/share-preview", label: "Share Preview" },
+  { path: "/additional-features/admin-panel", label: "Admin Panel" },
+  { path: "/additional-features/add-videos", label: "Add Videos" },
+  { path: "/additional-features/add-audiobooks", label: "Add Audiobooks" },
+  { path: "/additional-features/add-cover-images", label: "Add Cover Images" },
+  { path: "/additional-features/create-quizzes", label: "Create Quizzes" },
+  { path: "/additional-features/media-management", label: "Media Management" },
+  { path: "/additional-features/email-campaigns", label: "Email Campaigns" },
 
-    // Book Creation
-    { path: '/book-creation', label: 'Book Creation' },
-    { path: '/book-creation/book-creator', label: 'Book Creator' },
-    { path: '/book-creation/book-editor', label: 'Book Editor' },
-    { path: '/book-creation/adding-multimedia', label: 'Adding Multimedia (Book)' },
-    { path: '/book-creation/one-click-book-creator', label: 'One-Click Book Creator' },
-    { path: '/book-creation/exporting-downloading', label: 'Exporting & Downloading (Book)' },
+  // Customer Support
+  { path: "/customer-support", label: "Customer Support" },
+  { path: "/customer-support/log-complaint", label: "Log a Complaint" },
+  { path: "/customer-support/1-on-1-call", label: "1-on-1 Call" },
 
-    // Other Pages
-    { path: '/audiobook-creation', label: 'Audiobook Creation' },
-    { path: '/andy-ai', label: 'Andy AI' },
-    { path: '/quiz-and-media-management', label: 'Quiz & Media Management' },
-    { path: '/email-marketing', label: 'Email Marketing' },
-    { path: '/course-hosting', label: 'Course Hosting' },
-    { path: '/spotlight', label: 'Spotlight' },
-    { path: '/support-resource', label: 'Support & Resources' },
+ 
 ];
-  

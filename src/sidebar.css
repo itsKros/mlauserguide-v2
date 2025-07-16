@@ -1,0 +1,24 @@
+.nav-level .flex a {
+  font-size: 16px;
+  padding-left: 0;
+}
+
+.nav-level-1 .flex a {
+  font-size: 15px;
+  padding-left: 16px;
+}
+
+.nav-level-2 .flex a {
+  font-size: 14px;
+  padding-left: 32px;
+}
+
+.nav-level-3 .flex a {
+  font-size: 13px;
+  padding-left: 48px;
+}
+
+.nav-level.nav-level-0 > div > div,
+.nav-level.nav-level-1 > div > div  {
+    padding: 0px 10px;
+}
