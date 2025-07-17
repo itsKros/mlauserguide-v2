@@ -1,4 +1,3 @@
-// Layout.jsx
 import { React, useState, useEffect } from 'react';
 import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';

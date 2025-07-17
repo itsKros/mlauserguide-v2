@@ -16,29 +16,29 @@ const searchClient = algoliasearch(
 );
 
 function Hit({ hit }) {
-    return (
-      <a
-        href={hit.url}
-        className="block px-4 py-3 border-b last:border-b-0 hover:bg-gray-100 transition"
-      >
-        <div className="font-medium text-[#7b1fa2] text-sm">
-          <Highlight attribute="title" hit={hit} />
+  return (
+    <a
+      href={hit.url}
+      className="block px-4 py-3 border-b last:border-b-0 hover:bg-gray-100 transition"
+    >
+      <div className="font-medium text-[#7b1fa2] text-sm">
+        <Highlight attribute="title" hit={hit} />
+      </div>
+
+      {hit.category && (
+        <div className="text-xs text-gray-500 mt-1">
+          {hit.category}
         </div>
-  
-        {hit.category && (
-          <div className="text-xs text-gray-500 mt-1">
-            {hit.category}
-          </div>
-        )}
-  
-        {hit.description && (
-          <div className="text-xs text-gray-600 mt-1 leading-snug">
-            <Highlight attribute="description" hit={hit} />
-          </div>
-        )}
-      </a>
-    );
-  }
+      )}
+
+      {hit.content && (
+        <div className="text-xs text-gray-600 mt-1 leading-snug">
+          <Highlight attribute="content" hit={hit} />
+        </div>
+      )}
+    </a>
+  );
+}
   
 
 function CustomHits() {

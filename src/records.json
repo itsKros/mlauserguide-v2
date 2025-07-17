@@ -1,150 +1,205 @@
 [
-    {
-      "objectID": "home",
-      "title": "Home",
-      "content": "Welcome to the User Guide home page.",
-      "url": "/",
-      "category": "Home"
-    },
-    {
-      "objectID": "getting-started-intro",
-      "title": "Introduction to Mini Lessons Academy",
-      "content": "Learn how to navigate and begin using the Mini Lessons Academy platform.",
-      "url": "/getting-started/introduction-to-mini-lessons-academy",
-      "category": "Getting Started"
-    },
-    {
-      "objectID": "getting-started-onboarding",
-      "title": "Onboarding",
-      "content": "Set up your account and preferences.",
-      "url": "/getting-started/onboarding",
-      "category": "Getting Started"
-    },
-    {
-      "objectID": "dashboard-overview",
-      "title": "Dashboard Overview",
-      "content": "Understand key sections of your dashboard.",
-      "url": "/getting-started/dashboard-overview",
-      "category": "Getting Started"
-    },
-    {
-      "objectID": "course-creator",
-      "title": "Using Course Creator",
-      "content": "Create structured courses quickly.",
-      "url": "/course-creation/course-creator",
-      "category": "Course Creation"
-    },
-    {
-      "objectID": "course-editor",
-      "title": "Using Course Editor",
-      "content": "Edit your course content easily.",
-      "url": "/course-creation/course-editor",
-      "category": "Course Creation"
-    },
-    {
-      "objectID": "course-media",
-      "title": "Adding Images & Multimedia",
-      "content": "Enhance your course with visuals and videos.",
-      "url": "/course-creation/adding-multimedia",
-      "category": "Course Creation"
-    },
-    {
-      "objectID": "one-click-course",
-      "title": "One-Click Course Creator",
-      "content": "Generate full courses in one click.",
-      "url": "/course-creation/one-click-course-creator",
-      "category": "Course Creation"
-    },
-    {
-      "objectID": "export-course",
-      "title": "Exporting & Downloading Course",
-      "content": "Download your courses for offline use.",
-      "url": "/course-creation/exporting-downloading",
-      "category": "Course Creation"
-    },
-    {
-      "objectID": "book-creator",
-      "title": "Using Book Creator",
-      "content": "Write and design your own books.",
-      "url": "/book-creation/book-creator",
-      "category": "Book Creation"
-    },
-    {
-      "objectID": "book-editor",
-      "title": "Using Book Editor",
-      "content": "Edit and format your book content.",
-      "url": "/book-creation/book-editor",
-      "category": "Book Creation"
-    },
-    {
-      "objectID": "book-media",
-      "title": "Adding Images & Multimedia (Book)",
-      "content": "Enhance your book with media.",
-      "url": "/book-creation/adding-multimedia",
-      "category": "Book Creation"
-    },
-    {
-      "objectID": "one-click-book",
-      "title": "One-Click Book Creator",
-      "content": "Generate books instantly.",
-      "url": "/book-creation/one-click-book-creator",
-      "category": "Book Creation"
-    },
-    {
-      "objectID": "export-book",
-      "title": "Exporting & Downloading Book",
-      "content": "Download your book as PDF or ePub.",
-      "url": "/book-creation/exporting-downloading",
-      "category": "Book Creation"
-    },
-    {
-      "objectID": "audiobook",
-      "title": "Audiobook Creation",
-      "content": "Convert text into engaging audiobooks.",
-      "url": "/audiobook-creation",
-      "category": "Audiobook Creation"
-    },
-    {
-      "objectID": "andy-ai",
-      "title": "Andy AI",
-      "content": "Your AI-powered assistant.",
-      "url": "/andy-ai",
-      "category": "Andy AI"
-    },
-    {
-      "objectID": "quiz-media",
-      "title": "Quiz & Media Management",
-      "content": "Organize and manage quizzes and media.",
-      "url": "/quiz-and-media-management",
-      "category": "Quiz & Media"
-    },
-    {
-      "objectID": "email-marketing",
-      "title": "Email Marketing",
-      "content": "Manage and automate email campaigns.",
-      "url": "/email-marketing",
-      "category": "Marketing"
-    },
-    {
-      "objectID": "course-hosting",
-      "title": "Course Hosting",
-      "content": "Host and serve your courses online.",
-      "url": "/course-hosting",
-      "category": "Hosting"
-    },
-    {
-      "objectID": "spotlight",
-      "title": "Spotlight",
-      "content": "Highlight key features or announcements.",
-      "url": "/spotlight",
-      "category": "Spotlight"
-    },
-    {
-      "objectID": "support",
-      "title": "Support & Resource",
-      "content": "Get help and access additional resources.",
-      "url": "/support-resource",
-      "category": "Support"
-    }
-  ]
-  
+  {
+    "objectID": "home",
+    "title": "Home",
+    "content": "Welcome to Mini Lessons Academy",
+    "url": "/",
+    "category": "Home"
+  },
+  {
+    "objectID": "getting-started",
+    "title": "Getting Started",
+    "content": "Overview of the platform for new users",
+    "url": "/getting-started",
+    "category": "Getting Started"
+  },
+  {
+    "objectID": "creators-dashboard",
+    "title": "Creator's Dashboard",
+    "content": "Manage your account and settings",
+    "url": "/getting-started/creators-dashboard",
+    "category": "Getting Started"
+  },
+  {
+    "objectID": "profile-info",
+    "title": "Profile Information",
+    "content": "Update your personal profile details",
+    "url": "/getting-started/creators-dashboard/profile-information",
+    "category": "Getting Started"
+  },
+  {
+    "objectID": "email-settings",
+    "title": "Email Settings",
+    "content": "Manage your email preferences",
+    "url": "/getting-started/creators-dashboard/email",
+    "category": "Getting Started"
+  },
+  {
+    "objectID": "password-settings",
+    "title": "Password Settings",
+    "content": "Change your account password",
+    "url": "/getting-started/creators-dashboard/password",
+    "category": "Getting Started"
+  },
+  {
+    "objectID": "billing-info",
+    "title": "Billing Information",
+    "content": "View and manage billing details",
+    "url": "/getting-started/creators-dashboard/billing",
+    "category": "Getting Started"
+  },
+  {
+    "objectID": "marketing-resources",
+    "title": "Marketing Resources",
+    "content": "Tools to promote your content",
+    "url": "/getting-started/marketing-resources",
+    "category": "Getting Started"
+  },
+  {
+    "objectID": "ai-andy-coach",
+    "title": "AI Andy Coach",
+    "content": "Get AI-driven coaching help",
+    "url": "/getting-started/ai-andy-coach",
+    "category": "Getting Started"
+  },
+  {
+    "objectID": "course-ebook",
+    "title": "Create a Course or Ebook",
+    "content": "Get started with digital content creation",
+    "url": "/course-ebook",
+    "category": "Course & Ebook"
+  },
+  {
+    "objectID": "step-by-step",
+    "title": "Step-by-Step Guide",
+    "content": "Follow the process to build your content",
+    "url": "/course-ebook/step-by-step",
+    "category": "Course & Ebook"
+  },
+  {
+    "objectID": "create-course",
+    "title": "Create a Course",
+    "content": "Develop an educational course",
+    "url": "/course-ebook/step-by-step/create-course",
+    "category": "Course & Ebook"
+  },
+  {
+    "objectID": "create-fiction",
+    "title": "Create Fiction Ebook",
+    "content": "Publish a fictional ebook easily",
+    "url": "/course-ebook/step-by-step/create-fiction",
+    "category": "Course & Ebook"
+  },
+  {
+    "objectID": "create-nonfiction",
+    "title": "Create Nonfiction Ebook",
+    "content": "Publish a nonfiction ebook",
+    "url": "/course-ebook/step-by-step/create-nonfiction",
+    "category": "Course & Ebook"
+  },
+  {
+    "objectID": "document-upload",
+    "title": "Document Upload",
+    "content": "Upload course or book files",
+    "url": "/course-ebook/document-upload",
+    "category": "Course & Ebook"
+  },
+  {
+    "objectID": "fast-course-creation",
+    "title": "Fast Course Creation",
+    "content": "Quickly generate courses using AI",
+    "url": "/course-ebook/fast-course-creation",
+    "category": "Course & Ebook"
+  },
+  {
+    "objectID": "additional-features",
+    "title": "Additional Features",
+    "content": "Explore more tools and integrations",
+    "url": "/additional-features",
+    "category": "Additional Features"
+  },
+  {
+    "objectID": "editor-window",
+    "title": "Editor Window",
+    "content": "Use the rich text editor to refine your content",
+    "url": "/additional-features/editor-window",
+    "category": "Additional Features"
+  },
+  {
+    "objectID": "share-preview",
+    "title": "Share Preview",
+    "content": "Preview and share your content before publishing",
+    "url": "/additional-features/share-preview",
+    "category": "Additional Features"
+  },
+  {
+    "objectID": "admin-panel",
+    "title": "Admin Panel",
+    "content": "Manage platform-wide settings",
+    "url": "/additional-features/admin-panel",
+    "category": "Additional Features"
+  },
+  {
+    "objectID": "add-videos",
+    "title": "Add Videos",
+    "content": "Enhance your content with video files",
+    "url": "/additional-features/add-videos",
+    "category": "Additional Features"
+  },
+  {
+    "objectID": "add-audiobooks",
+    "title": "Add Audiobooks",
+    "content": "Include audio formats for learners",
+    "url": "/additional-features/add-audiobooks",
+    "category": "Additional Features"
+  },
+  {
+    "objectID": "add-cover-images",
+    "title": "Add Cover Images",
+    "content": "Upload beautiful covers for ebooks or courses",
+    "url": "/additional-features/add-cover-images",
+    "category": "Additional Features"
+  },
+  {
+    "objectID": "create-quizzes",
+    "title": "Create Quizzes",
+    "content": "Test learners using quizzes and assessments",
+    "url": "/additional-features/create-quizzes",
+    "category": "Additional Features"
+  },
+  {
+    "objectID": "media-management",
+    "title": "Media Management",
+    "content": "Organize and manage media assets",
+    "url": "/additional-features/media-management",
+    "category": "Additional Features"
+  },
+  {
+    "objectID": "email-campaigns",
+    "title": "Email Campaigns",
+    "content": "Reach your audience through email",
+    "url": "/additional-features/email-campaigns",
+    "category": "Additional Features"
+  },
+  {
+    "objectID": "customer-support",
+    "title": "Customer Support",
+    "content": "Need help? We're here for you.",
+    "url": "/customer-support",
+    "category": "Support"
+  },
+  {
+    "objectID": "log-complaint",
+    "title": "Log a Complaint",
+    "content": "Raise a support ticket",
+    "url": "/customer-support/log-complaint",
+    "category": "Support"
+  },
+  {
+    "objectID": "one-on-one-call",
+    "title": "1-on-1 Call",
+    "content": "Book a personal support session",
+    "url": "/customer-support/1-on-1-call",
+    "category": "Support"
+  }
+]
